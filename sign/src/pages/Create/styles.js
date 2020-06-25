@@ -12,13 +12,13 @@ export default StyleSheet.create({
 
   header: {
     //position:'relative',
-    flexDirection: "row", // ou row
+    flexDirection: "column", // ou row
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#FFFFFF",
     borderBottomEndRadius: 40,
     borderBottomStartRadius: 40,
-    height: 200,
+    height: "8%",
   },
 
   headerText: {
@@ -36,6 +36,7 @@ export default StyleSheet.create({
   //view do botao
   button: {
     alignItems: "center",
+
     flexDirection: "column",
   },
   //aarea clicavel do botao
@@ -46,6 +47,17 @@ export default StyleSheet.create({
     alignItems: "center",
 
     //  height:50,
+  },
+  buttonInput: {
+    height: 32,
+    width: 300,
+    borderRadius: 35,
+    fontSize: 21,
+    marginTop: "3%",
+    paddingLeft: "5%",
+    // alignItems: "center",
+    // flexDirection: "column",
+    backgroundColor: "#fff",
   },
   //texto do botao
   actionText: {

@@ -47,6 +47,17 @@ export default StyleSheet.create({
 
     //  height:50,
   },
+  form: {
+    height: 60,
+    width: 300,
+    borderRadius: 35,
+    fontSize: 21,
+    marginTop: "3%",
+    paddingLeft: "5%",
+    // alignItems: "center",
+    // flexDirection: "column",
+    backgroundColor: "#fff",
+  },
   //texto do botao
   actionText: {
     color: "#FFF",
